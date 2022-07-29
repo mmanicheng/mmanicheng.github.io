@@ -3,8 +3,6 @@
    font-display: swap;
    src: url('Barlow-SemiBold/font.ttf');
 }
-
-
 /*Mani CSS*/
 /*hover image effect of homepage, juwai app,*/
 #gallery3-9n .item-img {
@@ -19,4 +17,8 @@
 #gallery3-9n .item-img img:hover,
 #content3-cq .item-img img:hover{
     transform: scale(1.05);   
+}
+
+.gallery1 .item{
+    cursor: auto !important;
 }
