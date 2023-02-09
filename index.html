@@ -19,8 +19,6 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -234,7 +232,7 @@
                 </div>
                 <div class="col-12 col-lg-6 mbr-form form" data-form-type="formoid">
                     <h3 class="mbr-text mbr-fonts-style display-7">Please feel free to drop me a message below or <a href="mailto:manicheng@live.com" class="text-warning">email me</a> directly.&nbsp;</h3>
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="dNq2kY1mmRfQSxMyxE9SBPZVtwFir3VevfLbOEKOxN8OC2kgfi+hnuGm3O7/Ab/nndXyTyjPLgmtfXcz1TKEw2MjM0FTJIuQywV2Pvk1YAxrENIrc/iu0ix2EBUu4K1n.PSdErwD9wihcgYyhmvHAUWy7XTqNILKVpSN3ZDfRjSrCeRfwTItfFxFGC2+rWmmkTKrcVpVF6/swYyVb+AWOWbS5x8Uqwg2hSDEdujo3Hl83ufZ0EnAFaEJSD6ct/jvi">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="oqbnv9Nu2khBbSzD3vNFOhkLgJmMPBQ6tY2B13FzCVcu7+KZh1f2f99Q2BThBMS9GeivQtvBSFRQCi17kegx5tA2bqWk/6IBKt2d8dcK4mmCwYLCkBHqjnDc5glczjla.7z4zggPiAN+VSEFcvnoNHKkVXTWmB5FTkvh+TqI3/1S9nbMW7WG1lDO2umC2cA6aomtU5IT8pclpDfCFAqaEeeP9K2BNhk+vApq2bORY6iHUsatMI8kdBD/w2mKPFRsu">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank you for your message! I will reply you ASAP.</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
@@ -296,14 +294,12 @@
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/formstyler/jquery.formstyler.js"></script>
-  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"],iframe[loading="lazy"]').forEach(e=>{e.src=e.dataset.src,e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%",e.style.height=0,e.onload=function(){e.removeAttribute("style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js",document.body.appendChild(e)}</script>
+  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"],iframe[loading="lazy"]').forEach(e=>{e.src=e.dataset.src,e.setAttribute("data-temp-style", e.getAttribute("style")),e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%",e.style.height=0,e.onload=function(){if(e.getAttribute("data-temp-style")!=="null"){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js",document.body.appendChild(e)}</script>
 </body>
 </html>
