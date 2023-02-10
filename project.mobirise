@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mani Cheng Design Portfolio 設計作品集",
-    "currentPage": "motivelp.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -129,7 +129,7 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo2x-128x128_1.png",
     "google-analytics": "",
-    "mbrsiteDomain": "6saw0pcwip",
+    "mbrsiteDomain": "lag3mr4hyp",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
