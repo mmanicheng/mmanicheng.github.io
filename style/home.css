@@ -1,0 +1,146 @@
+#hero {
+    position: relative;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    color: var(--black-100);
+}
+
+#hero > h1 {
+    position: absolute;
+    z-index: -1;
+    font-size: calc(3rem + 1vw);
+    font-weight: 300;
+    white-space: nowrap;
+    @media (max-width: 768px) {
+    font-size: 7vw;
+    }
+}
+
+#hero-pic {
+    width: 30%;
+    position: relative;
+    left: 30%;
+}
+
+#hero-left {
+    top: 3vw;
+    width: 30%;
+    text-align: right;
+    line-height: 1;
+    @media (max-width: 768px) {
+        left: -2vw;
+    }
+}
+
+#hero-right {
+    top: 0;
+    right: 0;
+    width: 40%;
+    text-align: left;
+    line-height: 1;
+}
+
+.hero-tag {
+    background-color: var(--theme-color);
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: -2;
+    font-weight: 400;
+    white-space: nowrap;
+
+    @media (max-width: 768px) {
+        margin: auto;
+    }
+}
+.hero-tag-group{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+#hero-base {
+    bottom: .5rem;
+    left: -1rem;
+}
+
+#hero-exp {
+    bottom: -2.5rem;
+    left: 3rem;
+}
+
+#hero-former {
+    display: flex;
+    bottom: calc(-2.5rem - .5rem);
+    right: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+#hero-former span {
+    background-color: var(--theme-color);
+    padding: 0 .8rem;
+    color: var(--black-100);
+}
+
+#hero-former span:first-child {
+    border-radius: .5rem .5rem 0 0;
+    padding-top: .5rem;
+}
+
+#hero-former span:last-child {
+    border-radius: .5rem;
+    padding-bottom: .5rem;
+    padding-top: .3rem;
+}
+@media (max-width: 992px) {
+        .hero-tag-group {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-tag {
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        display: block;
+        position: relative;
+        margin-bottom: .5rem;
+    }
+
+    .hero-tag-group {
+        margin-top: 2rem;
+    }
+    #hero-base {
+        bottom: .5rem;
+        left: -1rem;
+    }
+
+    #hero-exp {
+        bottom: -2.5rem;
+        left: 3rem;
+    }
+    #hero-former {
+        flex-direction: row;
+        background-color: var(--theme-color);
+        padding: .5rem .8rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #hero-former span {
+        flex-direction: row;
+        background-color: transparent;
+        padding: 0 !important;
+    }
+    #hero-former span:first-child::after {
+        content: ' ';
+        display: inline-flex;
+    }
+}
