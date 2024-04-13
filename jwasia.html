@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/global.js"></script>
+    <title>Mani Design Portfolio | Asia Real Estate Platform</title>
+</head>
+<style>
+    :root {
+        --themeBg: url('img/jwAsia/bg.webp');
+        --themeBgColor: #c3d7ed;
+        --themeColorDark: #3c5168;
+        --themeColorLight: #c3d7ed;
+        --themeTextColor: #312b37;
+        --themeEffect: drop-shadow(0 5px 20px rgba(255, 255, 255, 0.5));
+        --themeGradient: linear-gradient(270deg, #3c5168 0%, #312b37 40%);
+        --summaryBg: transparent;
+        --summaryPadding: 0;
+        --summaryText: #000;
+    }
+
+    body {
+        color: var(--themeTextColor);
+    }
+
+    .step:not(:first-child) li:first-child::before,
+    .step:last-child::after {
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="85" viewBox="0 0 30 85" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Cpolygon fill="%233c5168" points="0 0.0912703474 30 42.5912703 0 85.0912703"%3E%3C/polygon%3E%3C/svg%3E');
+    }
+
+    .step {
+        width: calc((100% / 3) - (70px / 3));
+        min-width: 200px;
+    }
+</style>
+
+<body class="designDetails">
+    <nav id="navbar"></nav>
+    <section class="dHeader">
+        <div class="dsummary">
+            <div class="dTitle">
+                <h1>Juwai.asia</h1>
+                <h4>Asia Real Estate Platform</h4>
+            </div>
+        </div>
+
+        <img src="img/JwAsia/header.webp">
+        <p>Juwai.asia is the extended platform of Juwai.com, where we expanded our business from China to Asia in 2019. Within Juwai.asia, our team faced the challenge of reaching a broader target audience with tighter deadlines. Here is the case study of this project from the perspective of a solo product designer.</p>
+
+    </section>
+    <section class="container designProcess">
+        <div class="col sectionTitle">
+            <h1>Project Overview & Planning</h1>
+            <p>Here are initial project stages. Click to expand for details or scroll down to view the final product.</p>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <h2>Project Requirements & Constraints</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>In line with the company's objective to launch the platform within 3 months, it is essential to identify the necessary features and enhancements required for a successful rollout.</p>
+                <p style="margin-bottom: .5rem">As an extension of Juwai.com, Juwai.asia shares some similarities in features while also introducing new elements. To align with our business objectives, Juwai.asia must encompass the fundamental features present on the Chinese platform upon its initial release:</p>
+                <ul class="squareList">
+                    <li>property searching</li>
+                    <li>global real estate market news</li>
+                    <li> consulting services</li>
+                </ul>
+                <p style="margin-bottom: .5rem">Distinctive features for Juwai.asia include:</p>
+                <ul class="squareList">
+                    <li>Customized homepage content based on buyer location</li>
+                    <li>Multi-language and multi-currency support within the UI</li>
+                    <li>Ability for buyers to search for local property (a feature not available on the Chinese platform)</li>
+                    <li>Development of a responsive website for optimal user experience</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <h2>Roadmap</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>
+                    To ensure a successful launch within 3 months, we prioritized the development of key features and workflow. Here is the roadmap: </p>
+                <div class="stepGp">
+                    <ul class="step">
+                        <li>MVP</li>
+                        <li>
+                            <span>Country homepage</span>
+                            <span>Search for Property and agents</span>
+                            <span>Consulting services</span>
+                            <span>Supporting languages：EN，CH</span>
+                            <span>Support multinational currency</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Version 1</li>
+                        <li>
+                            <span> Customise homepage Asia countries</span>
+                            <span>Currency formatting</span>
+                            <span>Global real estate news</span>
+                            <span>...</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Version 3</li>
+                        <li>
+                            <span>Global Gateway</span>
+                            <span>Optimise the details based on user data</span>
+                            <span>...</span>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="toggleTitle collapsed">
+            <h2>Sitemap</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+            <p>In line with the company's objective to launch the platform within 3 months, it is essential to identify the necessary features and enhancements required for a successful rollout.</p>
+            <div class="scrollWrapper">
+                <object type="image/svg+xml" data="img/jwAsia/sitemap.svg"></object>
+            </div>
+            </div>
+        </div>
+    </section>
+<section class="container">
+        <div class="col sectionTitle">
+            <h1>Final Design</h1>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Global Gateway</h2>
+                <p>
+                    Since Juwai.asia's content, language, and currency are customized based on the buyer's location, we need to determine the buyer's location when they first land on our website. The site will then remember the selected location using cookies.
+                </p>
+            </div>
+            <div class="colImg">
+                <img src="img/JwAsia/gateway.webp">
+            </div>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Customized Homepage</h2>
+                <p>
+                    The homepage's user interface (UI) is customized based on the buyer's location.
+In most locations, the homepages will feature a mix of global and local properties. However, in certain regions, only local properties are showcased.
+                </p>
+                <p>
+                    This tailored approach aligns with the company's business strategy, which aims to cater to the specific needs and preferences of buyers in different locations.</p>
+            </div>
+            <div class="colImg">
+                <img src="img/JwAsia/homepage.webp">
+            </div>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Global Search Page</h2>
+                <p>
+                    Developing the Global Search Page involved understanding diverse buyer search behaviors worldwide. To address this, we researched different property search sites and consulted our sales team. Here are the key features:
+                </p>
+                <h4>The Rental Option Filter</h4>
+                <p>Based on our research, we discovered that in addition to monthly rentals, there are also weekly and yearly rental options. Therefore, we expanded the available choices to meet diverse preferences and needs.</p>
+                <h4>Currency Formatting</h4>
+                <p>To enhance readability and accommodate currency adjustments, we implemented a smart rounding system. This maintains clarity by avoiding long numbers, making it easier for buyers to compare prices and make decisions.</p>
+            </div>
+            <div class="colImg">
+                <img src="img/JwAsia/serp.webp">
+            </div>
+        </div>
+        <div class="row stickyRow">
+            <div class="colText">
+                <h2>Property Details Page</h2>
+                <p>
+                    In comparison to Juwai.com, the Property Details Page on Juwai.asia has undergone minimal changes. However, to better accommodate the diverse searching behaviors of buyers worldwide, we have introduced some subtle enhancements:
+                </p>
+                <h4>Unit Conversion</h4>
+                <p>Buyers can now seamlessly switch between various measurement units (such as square feet and square meters) to cater to regional preferences.</p>
+                <h4>Local Real Estate Market Insights</h4>
+                <p>At the bottom of each property details page, buyers can easily access valuable information on local real estate market trends, pricing dynamics, and investment opportunities. This provides buyers with insightful data to make informed decisions.</p>
+            </div>
+            <div class="colImg">
+                <img src="img/JwAsia/details.webp">
+            </div>
+        </div>
+        <div class="col">
+            <p>
+                The mentioned pages and features represent significant differences when compared to the Chinese site Juwai.com. The remaining pages, such as Property Channels, Market News, Membership Pages, etc., have also been successfully implemented as per the roadmap, mirroring the Chinese site.
+            </p>
+        </div>
+        <div class="col">
+            <h2>What's Next?</h2>
+            <p>
+                Indeed, people from various countries/regions exhibit distinct property searching and buying behaviors that cannot be effectively addressed using a uniform approach. An ideal strategy would involve selecting specific locations for focused analysis of their unique buying processes. Subsequently, adjustments can be made to tailor the overall experience to the individual needs of each location.
+            </p>
+        </div>
+
+    </section>
+    <footer> <a href="index.html" class="button">View all Projects</a>
+        <p>&copy; 2024 Mani Design Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

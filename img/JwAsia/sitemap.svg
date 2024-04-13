@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="952px" height="596px" viewBox="0 0 952 596" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sitemap</title>
+    <style>
+    .cardText{
+        font-size: 14px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        fill: #312b37;
+        }
+        .cardTitle{
+        font-weight: 500;
+        }
+        .box{
+        fill: #fff;rx:5;
+        }
+        .stroke{
+        stroke:#fff;stroke-width: 1px;fill: none;
+        }
+    </style>
+    <g id="sitemap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="10.5" y1="67.75" x2="10.5" y2="280.7942" class="stroke"></line>
+        <line x1="11" y1="179.5" x2="21" y2="179.5" class="stroke"></line>
+        <line x1="11" y1="229.5" x2="21" y2="229.5" class="stroke"></line>
+        <line x1="11" y1="280.5" x2="21" y2="280.5" class="stroke"></line>
+        <line x1="680" y1="365" x2="680" y2="545" class="stroke"></line>
+        <line x1="660" y1="67.75" x2="660" y2="345" class="stroke"></line>
+        <line x1="680" y1="393.5" x2="691" y2="393.5" class="stroke"></line>
+        <line x1="660" y1="179.5" x2="670" y2="179.5" class="stroke"></line>
+        <line x1="680" y1="280.5" x2="690" y2="280.5" class="stroke"></line>
+        <line x1="680" y1="443.5" x2="691" y2="443.5" class="stroke"></line>
+        <line x1="660" y1="229.5" x2="670" y2="229.5" class="stroke"></line>
+        <line x1="660" y1="344.5" x2="670" y2="344.5" class="stroke"></line>
+        <line x1="680" y1="494.5" x2="691" y2="494.5" class="stroke"></line>
+        <line x1="680" y1="544.5" x2="691" y2="544.5" class="stroke"></line>
+        <line x1="680" y1="250" x2="680" y2="281" class="stroke"></line>
+        <line x1="822" y1="68" x2="822" y2="331" class="stroke"></line>
+        <line x1="822" y1="179.5" x2="832" y2="179.5" class="stroke"></line>
+        <line x1="822" y1="229.5" x2="832" y2="229.5" class="stroke"></line>
+        <line x1="822" y1="280.5" x2="832" y2="280.5" class="stroke"></line>
+        <line x1="822" y1="330.5" x2="832" y2="330.5" class="stroke"></line>
+        <line x1="170.583973" y1="67.7058" x2="171" y2="521" class="stroke"></line>
+        <line x1="171" y1="179.5" x2="181" y2="179.5" class="stroke"></line>
+        <line x1="171" y1="292.5" x2="181" y2="292.5" class="stroke"></line>
+        <line x1="171" y1="405.5" x2="181" y2="405.5" class="stroke"></line>
+        <line x1="171" y1="520.5" x2="181" y2="520.5" class="stroke"></line>
+        <line x1="191" y1="230.5" x2="201" y2="230.5" class="stroke"></line>
+        <line x1="191" y1="345.5" x2="201" y2="345.5" class="stroke"></line>
+        <line x1="191" y1="460.5" x2="201" y2="460.5" class="stroke"></line>
+        <line x1="191" y1="575.5" x2="201" y2="575.5" class="stroke"></line>
+        <line x1="191" y1="200" x2="191" y2="231" class="stroke"></line>
+        <line x1="191" y1="315" x2="191" y2="346" class="stroke"></line>
+        <line x1="191" y1="430" x2="191" y2="461" class="stroke"></line>
+        <line x1="191" y1="545" x2="191" y2="576" class="stroke"></line>
+        <line x1="340.583973" y1="67.7058" x2="341" y2="293" class="stroke"></line>
+        <line x1="341" y1="179.5" x2="351" y2="179.5" class="stroke"></line>
+        <line x1="341" y1="292.5" x2="351" y2="292.5" class="stroke"></line>
+        <line x1="361" y1="230.5" x2="371" y2="230.5" class="stroke"></line>
+        <line x1="361" y1="345.5" x2="371" y2="345.5" class="stroke"></line>
+        <line x1="361" y1="200" x2="361" y2="231" class="stroke"></line>
+        <line x1="361" y1="315" x2="361" y2="346" class="stroke"></line>
+        <line x1="500.583973" y1="67.7058" x2="501" y2="180" class="stroke"></line>
+        <line x1="501" y1="179.5" x2="511" y2="179.5" class="stroke"></line>
+        <line x1="521" y1="230.5" x2="531" y2="230.5" class="stroke"></line>
+        <line x1="521" y1="200" x2="521" y2="231" class="stroke"></line>
+        <line x1="476.291987" y1="23" x2="476.708013" y2="67.2942" class="stroke"></line>
+        <line x1="822.5" y1="67.75" x2="10" y2="67.25" class="stroke"></line>
+        <rect class="box" x="0" y="91" width="140" height="45"></rect>
+        <rect class="box" x="21" y="155" width="120" height="45"></rect>
+        <rect class="box" x="21" y="205" width="120" height="45"></rect>
+        <rect class="box" x="21" y="255" width="120" height="45"></rect>
+        <rect class="box" x="651" y="91" width="140" height="45"></rect>
+        <rect class="box" x="691" y="369" width="100" height="45"></rect>
+        <rect class="box" x="670" y="155" width="120" height="45"></rect>
+        <rect class="box" x="690" y="255" width="100" height="45"></rect>
+        <rect class="box" x="691" y="419" width="100" height="45"></rect>
+        <rect class="box" x="670" y="205" width="120" height="45"></rect>
+        <rect class="box" x="670" y="320" width="120" height="45"></rect>
+        <rect class="box" x="691" y="469" width="100" height="45"></rect>
+        <rect class="box" x="691" y="519" width="100" height="45"></rect>
+        <rect class="box" x="811" y="91" width="140" height="45"></rect>
+        <rect class="box" x="832" y="155" width="120" height="45"></rect>
+        <rect class="box" x="832" y="205" width="120" height="45"></rect>
+        <rect class="box" x="832" y="255" width="120" height="45"></rect>
+        <rect class="box" x="832" y="305" width="120" height="45"></rect>
+        <rect class="box" x="161" y="91" width="140" height="45"></rect>
+        <rect class="box" x="181" y="155" width="120" height="45"></rect>
+        <rect class="box" x="201" y="205" width="100" height="45"></rect>
+        <rect class="box" x="201" y="320" width="100" height="45"></rect>
+        <rect class="box" x="201" y="435" width="100" height="45"></rect>
+        <rect class="box" x="201" y="550" width="110" height="45"></rect>
+        <rect class="box" x="181" y="270" width="120" height="45"></rect>
+        <rect class="box" x="181" y="385" width="120" height="45"></rect>
+        <rect class="box" x="181" y="500" width="120" height="45"></rect>
+        <rect class="box" x="331" y="91" width="140" height="45"></rect>
+        <rect class="box" x="351" y="155" width="120" height="45"></rect>
+        <rect class="box" x="371" y="205" width="100" height="45"></rect>
+        <rect class="box" x="371" y="320" width="100" height="45"></rect>
+        <rect class="box" x="351" y="270" width="120" height="45"></rect>
+        <rect class="box" x="491" y="91" width="140" height="45"></rect>
+        <rect class="box" x="511" y="155" width="120" height="45"></rect>
+        <rect class="box" x="531" y="205" width="100" height="45"></rect>
+        <rect class="box" x="389" y="0" width="175" height="45"></rect>
+        <text id="Property-Search-Resu" class="cardText">
+            <tspan x="30.2045" y="174">Property Search </tspan>
+            <tspan x="59.33115" y="192">Results </tspan>
+        </text>
+        <text id="Brands-Search-Result" class="cardText">
+            <tspan x="35.76285" y="224">Brands Search  </tspan>
+            <tspan x="59.33115" y="242">Results </tspan>
+        </text>
+        <text id="News-Search-Results" class="cardText">
+            <tspan x="40.98695" y="274">News Search  </tspan>
+            <tspan x="59.33115" y="292">Results </tspan>
+        </text>
+        <text id="Search" class="cardText cardTitle">
+            <tspan x="48.4477" y="118">Search</tspan>
+        </text>
+        <text id="Account-Info" class="cardText">
+            <tspan x="704.62465" y="339">Account </tspan>
+            <tspan x="717.8088" y="357">Info</tspan>
+        </text>
+        <text id="Account" class="cardText cardTitle">
+            <tspan x="695.62465" y="119">Account</tspan>
+        </text>
+        <text id="Forget-Password" class="cardText">
+            <tspan x="719.1792" y="274">Forget</tspan>
+            <tspan x="709.9301" y="292">Password </tspan>
+        </text>
+        <text id="Saved-Properties" class="cardText">
+            <tspan x="721.764" y="388">Saved </tspan>
+            <tspan x="708.49375" y="406">Properties</tspan>
+        </text>
+        <text id="Member-Signup" class="cardText">
+            <tspan x="681.0301" y="183">Member Signup</tspan>
+        </text>
+        <text id="Enquiry-Records" class="cardText">
+            <tspan x="717.3694" y="438">Enquiry</tspan>
+            <tspan x="715.8889" y="456">Records </tspan>
+        </text>
+        <text id="Member-Sign-In" class="cardText">
+            <tspan x="703.5687" y="224">Member </tspan>
+            <tspan x="709.51065" y="242">Sign In</tspan>
+        </text>
+        <text id="Saved-Searches" class="cardText">
+            <tspan x="721.764" y="488">Saved</tspan>
+            <tspan x="712.56285" y="506">Searches </tspan>
+        </text>
+        <text id="Saved-Brands" class="cardText">
+            <tspan x="721.764" y="538">Saved</tspan>
+            <tspan x="718.90345" y="556">Brands </tspan>
+        </text>
+        <text id="About-us" class="cardText cardTitle">
+            <tspan x="853.7826" y="119">About us</tspan>
+        </text>
+        <text id="Company-Profile" class="cardText">
+            <tspan x="840.0698" y="183">Company Profile </tspan>
+        </text>
+        <text id="T&amp;C" class="cardText">
+            <tspan x="878.86835" y="233">T&amp;C</tspan>
+        </text>
+        <text id="Privacy" class="cardText">
+            <tspan x="868.77015" y="283">Privacy</tspan>
+        </text>
+        <text id="Contact-Us" class="cardText">
+            <tspan x="857.735" y="333">Contact Us</tspan>
+        </text>
+        <text id="Global-Properties" class="cardText cardTitle">
+            <tspan x="176.47665" y="119">Global Properties</tspan>
+        </text>
+        <text id="Global-Property-Sear" class="cardText">
+            <tspan x="191.076" y="175">Global Property </tspan>
+            <tspan x="219.3217" y="193">Search</tspan>
+        </text>
+        <text id="Property-Details" class="cardText">
+            <tspan x="223.3451" y="223">Property </tspan>
+            <tspan x="229.46065" y="241">Details </tspan>
+        </text>
+        <text id="New-Projects-Details" class="cardText">
+            <tspan x="210.3664" y="338">New Projects </tspan>
+            <tspan x="229.46065" y="356">Details </tspan>
+        </text>
+        <text id="Luxury-House-Details" class="cardText">
+            <tspan x="209.22015" y="453">Luxury House</tspan>
+            <tspan x="229.46065" y="471">Details </tspan>
+        </text>
+        <text id="Commercials-Property" class="cardText">
+            <tspan x="215.2012" y="568">Commercials </tspan>
+            <tspan x="205.21745" y="586">Property Details</tspan>
+        </text>
+        <text id="New-Projects" class="cardText">
+            <tspan x="200.4924" y="298">New Projects </tspan>
+        </text>
+        <text id="Luxury-House" class="cardText">
+            <tspan x="199.22015" y="411">Luxury House </tspan>
+        </text>
+        <text id="Commercials-Property" class="cardText">
+            <tspan x="200.3272" y="519">Commercials </tspan>
+            <tspan x="213.2191" y="537">Property</tspan>
+        </text>
+        <text id="Brands" class="cardText cardTitle">
+            <tspan x="378.90345" y="119">Brands</tspan>
+        </text>
+        <text id="Company-Search" class="cardText">
+            <tspan x="358.0613" y="183">Company Search</tspan>
+        </text>
+        <text id="Company-Profile" class="cardText">
+            <tspan x="390.7019" y="223">Company </tspan>
+            <tspan x="400.8302" y="241">Profile</tspan>
+        </text>
+        <text id="Agent-Profile" class="cardText">
+            <tspan x="402.1245" y="338">Agent </tspan>
+            <tspan x="400.8302" y="356">Profile</tspan>
+        </text>
+        <text id="Agent-Search" class="cardText">
+            <tspan x="368.9839" y="298">Agent Search</tspan>
+        </text>
+        <text id="News-List" class="cardText">
+            <tspan x="542.1378" y="183">News List</tspan>
+        </text>
+        <text id="News" class="cardText cardTitle">
+            <tspan x="544.12755" y="119">News</tspan>
+        </text>
+        <text id="Article" class="cardText">
+            <tspan x="560.3934" y="233">Article</tspan>
+        </text>
+        <text id="Country-Homepage" class="cardText cardTitle">
+            <tspan x="415.31545" y="28">Country Homepage</tspan>
+        </text>
+    </g>
+</svg>

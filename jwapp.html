@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/global.js"></script>
+    <title>Mani Design Portfolio | Juwai app redesign</title>
+</head>
+<style>
+    :root {
+        --themeBg: none;
+        --themeBgColor: #F2F5F8;
+        --themeColorDark: #e00031;
+        --themeColorLight: rgb(141 153 174 / 35%);
+        --themeTextColor: #333;
+        --themeEffect: drop-shadow(5px 10px 20px rgb(45 69 95 / 15%));
+        --themeGradient: linear-gradient(270deg, #F7597A 0%, #e00031 40%);
+        --summaryBg: transparent;
+        --summaryPadding: 0;
+        --summaryText: var(--themeTextColor);
+        /*
+        --summaryBg: var(--themeColorDark);
+        --summaryPadding: 2em;
+        --summaryText: #fff;
+*/
+    }
+
+    h1,
+    h2 {
+        color: var(--themeTextColor);
+    }
+
+    body {
+        color: var(--themeTextColor);
+    }
+
+    .step:not(:first-child) li:first-child::before,
+    .step:last-child::after {
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="85" viewBox="0 0 30 85" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Cpolygon fill="%23F7597A" points="0 0.0912703474 30 42.5912703 0 85.0912703"%3E%3C/polygon%3E%3C/svg%3E');
+    }
+</style>
+
+<body class="designDetails">
+    <nav id="navbar"></nav>
+    <section>
+        <div class="dHeader">
+            <div class="dsummary">
+                <div class="dTitle">
+                    <h1>Juwai Mobile App</h1>
+                    <h4>A Leading Chinese Real Estate App Revamp</h4>
+                </div>
+            </div>
+            <img src="img/jwApp/header.webp" data-max-width="700">
+            <p>
+                Juwai, China's leading Overseas Property Searching Online Platform, serves as a bridge connecting Chinese property buyers and investors with overseas properties. It enables Chinese buyers to access overseas properties in Chinese, while allowing global agents to showcase properties to Chinese buyers. This eliminates language barriers and navigates around the Great Firewall of China.
+            </p>
+            <p>
+                However, the mobile app had not been updated for a long time and was left abandoned. Juwai made the decision to revive the app by giving it a fresh update. The main goal of this Juwai app redesign project is to improve the app's performance, enhance user experience, increase traffic, and enhance conversion rates by aligning with the changing requirements of our property buyers. In this project, my role was the UI and UX designer, overseeing the entire design process.</p>
+        </div>
+    </section>
+    <section class="container designProcess">
+        <div class="col sectionTitle">
+            <h1>Design Process</h1>
+            <p>Here are the steps for this project. Click to expand each stage for details or simply scroll down to view the final outcome.</p>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <b>Research and Analysis</b>
+                <h2>Current App Analysis</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>Firstly, we conducted a thorough analysis of the current app. Here are some ideas for the app's main pages.</p>
+                <div id="jwoldapp">
+                    <div class="item">
+                        <img src="img/jwApp/oldApp1.webp">
+                        <h4>Homepage</h4>
+                        <p>Refine navigation for seamless and user-friendly property browsing.</p>
+                        <p>Improve color combination for better visual aesthetics.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/jwApp/oldApp2.webp">
+                        <h4>Property Search</h4>
+                        <p>Add a search bar for free property exploration.</p>
+                        <p>Expand filter options for comprehensive searching.</p>
+                        <p>Increase text color contrast for readability.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/jwApp/oldApp3.webp">
+                        <h4>Property Details</h4>
+                        <p>Add more visual material for better property showcasing.</p>
+                        <p>Streamline the interface to reduce reading fatigue.</p>
+                        <p>Expand inquiry options beyond direct calls.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/jwApp/oldApp4.webp">
+                        <h4>Market News</h4>
+                        <p>Enhance visual appeal of the interface.</p>
+                        <p>Categorize articles for better organization.</p>
+                        <p>Improve readability with larger images, complete titles, and darker text.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <b>Research and Analysis</b>
+                <h2>Stakeholder Interview</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>After analyzing the former app, we conducted stakeholder interview to understand their goals and expectations for the project from their perspective.</p>
+                <div class="tableRow tableRowWider persona">
+                    <ul class="table">
+                        <li class="th">Chinese Buyers<img src="img/jwApp/stakeholder1.webp"></li>
+                        <li class="tdSubtitle">
+                            User Goals</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Explore property markets, buying procedures, and requirements across various countries</li>
+                                <li>Find a dream house</li>
+                            </ul>
+                        </li>
+                        <li class="tdSubtitle">
+                            App feedback</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Lack of features that facilitate decision making during property search</li>
+                                <li>Insufficient property market information, data, news etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="table">
+                        <li class="th">Juwai<img src="img/jwApp/stakeholder2.webp"></li>
+                        <li class="tdSubtitle">
+                            Product Goals</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Enhance the conversion rate (enquiry rate) </li>
+                                <li>Attract agents to advertise properties on our platform</li>
+                            </ul>
+                        </li>
+                        <li class="tdSubtitle">
+                            App feedback</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Urgently improve the overall UX, focusing on bounce rate and conversation rate</li>
+                                <li>Redesign the outdated UI</li>
+                                <li>Ensure useful information is available on both the mobile app and PC site</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="table">
+                        <li class="th">Property Agents<img src="img/jwApp/stakeholder3.webp"></li>
+                        <li class="tdSubtitle">
+                            Business Goals</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Increase the number of property buyer referrals</li>
+                                <li>Enhance the visibility and exposure of their properties to a wider audience</li>
+                            </ul>
+                        </li>
+                        <li class="tdSubtitle">
+                            App feedback</li>
+                        <li>
+                            <ul class="squareList">
+                                <li>Lack of features that support us in introducing ourselves to the buyers</li>
+                                <li>Paid boosts for my listings' exposure only reflect on the PC site and not on the mobile app</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <b>Planning and Strategy</b>
+                <h2>Persona</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>Based on user interviews, we discovered diverse needs and processes among property buyers. We then created 4 personas to encapsulate the backgrounds of these buyers which are investor, immigrant, a mother who want to send her child to stay abroad and Life Enjoyer / Retirees.</p>
+                <div class="gallery" style="width: 100% !important">
+                    <img src="img/jwApp/persona1.webp" class="imgCol-2">
+                    <img src="img/jwApp/persona2.webp" class="imgCol-2">
+                    <img src="img/jwApp/persona3.webp" class="imgCol-2">
+                    <img src="img/jwApp/persona4.webp" class="imgCol-2">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <b>Planning and Strategy</b>
+                <h2>Task Analysis</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <p>We analyzed user journey maps from persona profiles and conducted card sorting to understand the pain points and grasp the actions users took to reach their goals.</p>
+                <div class="stepGp">
+                    <ul class="step">
+                        <li>Brainstorming</li>
+                        <li>
+                            <span>Consult Agents/Agencies</span>
+                            <span>Stay Informed with Market News</span>
+                            <span>Follow Property Market Influencers</span>
+                            <span>Participate in Property Market Events</span>
+                            <span>Watch Live Shows</span>
+                            <span>Seek Advice from Forum Members</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Confirmed target location</li>
+                        <li>
+                            <span>Learn About Related Policies</span>
+                            <span>Explore Local Schools</span>
+                            <span>Understand Market Trends</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Property Search</li>
+                        <li>
+                            <span>Refine Search Criteria</span>
+                            <span>Browse Listings</span>
+                            <span>Explore the Neighbourhood</span>
+                            <span>Bookmark Favourable Properties</span>
+                            <span>Compare Properties</span>
+                            <span>Contact Agents/Agencies</span>
+                            <span>Attend Open Houses or Viewings</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Execute the decision</li>
+                        <li>
+                            <span>Apply for a mortgage</span>
+                            <span>Make an Offer</span>
+                            <span>Arrange for home inspections to assess the condition of the property</span>
+                            <span>Finalize the terms of the purchase</span>
+                            <span>Close the Deal</span>
+                        </li>
+                    </ul>
+                    <ul class="step">
+                        <li>Make decision</li>
+                        <li>
+                            <span>Call Juwai</span>
+                            <span>Submit an inquiry form or send an email and wait for a reply</span>
+                            <span>Contact agents or agencies</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="toggleTitle collapsed">
+                <b>Design</b>
+                <h2>IA & Wireframe</h2>
+                <span class="toggleArrow">&#x02C7;</span>
+            </div>
+            <div class="toggleContent" style="display: none;">
+                <div class="gallery">
+                    <img src="img/jwApp/IA.webp" class="imgCol-2">
+                    <img src="img/jwApp/wireframe.webp" class="imgCol-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="jwApp">
+        <div class="col sectionTitle">
+            <h1>Final Design</h1>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Onboarding Pages</h2>
+                <p>
+                    Three onboarding pages were added to the app launch to provide updates on our app. This initiative informed users that our app had been enhanced with not only the interfaces but also more features to support their property searching and buying journey.
+                </p>
+            </div>
+            <div class="colImg">
+                <img src="img/jwApp/onboarding.webp">
+            </div>
+        </div>
+        <div class="row stickyRow">
+            <div class="colText">
+                <h2>Homepage</h2>
+                <p>To enhance the overseas property searching experience for Chinese buyers, our enriched homepage offers:</p>
+                <h4>Multiple Browsing Approaches</h4>
+                <p>
+                    Featuring banners, navigation tools, and a country search gateway in the top section, catering to diverse preferences.
+                </p>
+                <h4>Diverse Buying information</h4>
+                <p>
+                    Providing property buying news and resources in the middle section to keep buyers informed and empowered to make well-informed decisions.</p>
+                <h4>Recommended Properties</h4>
+                <p>
+                    Showcasing real estate listings in the last section to captivate buyers and motivate them to kickstart their property search journey.</p>
+                <p>The redesigned homepage not only caters to the diverse needs and preferences of our users but also showcases how Juwai supports their buying journey from various perspectives.</p>
+
+            </div>
+            <div class="colImg" data-width="40">
+                <img src="img/jwApp/homepage.webp">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Property Search</h2>
+                <p>The enhanced search page elevates the property exploration experience by introducing categorized filter options, aiding buyers in refining their searches effortlessly to discover their ideal match. Additionally, a prominent search box at the top enables users to swiftly input their queries.</p>
+            </div>
+            <div class="colImg">
+                <img src="img/jwApp/serp.webp">
+            </div>
+        </div>
+        <div class="row stickyRow">
+            <div class="colText">
+                <h2>Property Details</h2>
+                <p>Since our targeted users are Chinese buyers looking for overseas property, the main goal of the details page is to help buyers learn about the property as much as possible without visiting in person.</p>
+                <p>Upon visiting the details page, buyers can initiate a virtual property tour using different mediums like virtual reality (VR), videos, and photos.</p>
+                <p>Furthermore, they can explore in-depth details including pricing, address, interior design, and surrounding amenities.</p>
+                <p>Lastly, buyers will receive suggestions for nearby property listings to keep them engaged in their search. This immersive experience empowers buyers to gain a comprehensive understanding of the property and make inquiries using the bottom sticky tab bar.</p>
+
+            </div>
+            <div class="colImg" data-width="40">
+                <img src="img/jwApp/details.webp">
+            </div>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Agent Profile Page</h2>
+                <p>Buyers can visit the property's agent or agency profile from the details page to understand their service areas, contact details, and connections, providing an overview of their capabilities and reach. </p>
+                <p>
+                    Additionally, accessing their represented property listings allows for a more targeted and informed property search, offering insights into the types of properties they specialize in and enhancing the overall property exploration experience.
+                </p>
+            </div>
+            <div class="colImg">
+                <img src="img/jwApp/ccp.webp">
+            </div>
+        </div>
+        <div class="row">
+            <div class="colText">
+                <h2>Enquiry Module</h2>
+                <p>To keep our UI organized and offer a consistent user experience across our app, we built a single enquiry module. This not only simplifies the user experience but also streamlines the development process. It enables easier maintenance and updates, ensuring a cohesive and efficient user journey across the app.
+                </p>
+            </div>
+            <div class="colImg">
+                <img src="img/jwApp/enquiryModule.gif">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colText">
+                <h2>Editorials</h2>
+                <p>On the editorial page, news and reports are categorized to align with buyers' interests, saving them time and effort in finding relevant information.
+                </p>
+            </div>
+            <div class="colImg">
+                <img src="img/jwApp/editorial.webp">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container rowAlt">
+            <div class="row">
+                <img src="img/jwApp/all.webp">
+            </div>
+
+        </div>
+    </section>
+
+    <footer> <a href="index.html" class="button">View all Projects</a>
+        <p>&copy; 2024 Mani Design Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
