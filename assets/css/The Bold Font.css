@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'The Bold Font';
+	src: url(../../assets/fonts/The%20Bold%20Font-433fc48fcedb50e37a959006d24af05b.woff2) format('woff2'),
+	url(../../assets/fonts/The%20Bold%20Font-a86cd7bddbb8fe4e1d43dbf09078fcbb.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'The Bold Font';
+	src: url(../../assets/fonts/The%20Bold%20Font-433fc48fcedb50e37a959006d24af05b.woff2) format('woff2'),
+	url(../../assets/fonts/The%20Bold%20Font-a86cd7bddbb8fe4e1d43dbf09078fcbb.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

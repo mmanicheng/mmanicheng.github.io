@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Jocky Starline';
+	src: url(../../assets/fonts/Jocky%20Starline-15deda6e77fc300417c6aef8e3d0e00a.woff2) format('woff2'),
+	url(../../assets/fonts/Jocky%20Starline-d6e6adaa370801ab4d7a6c8f249c4e3b.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
