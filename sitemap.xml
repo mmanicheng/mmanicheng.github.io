@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>http://manicheng.xyz/g/ab_ppt.html</loc>
+    </url>
+    <url>
+        <loc>http://manicheng.xyz/g/ad.html</loc>
+    </url>
+    <url>
+        <loc>http://manicheng.xyz/g/jw_mgz.html</loc>
+    </url>
+    <url>
+        <loc>http://manicheng.xyz/g/jwcamp.html</loc>
+    </url>
+    <url>
+        <loc>http://manicheng.xyz/g/kb.html</loc>
+    </url>
+    <url>
         <loc>http://manicheng.xyz/about.html</loc>
     </url>
     <url>
@@ -22,6 +37,6 @@
         <loc>http://manicheng.xyz/jwasia.html</loc>
     </url>
     <url>
-        <loc>http://manicheng.xyz/kb.html</loc>
+        <loc>http://manicheng.xyz/jwt.html</loc>
     </url>
 </urlset>
